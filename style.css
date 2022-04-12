@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(to right top, #ffe1c6, #f3ccc1, #deb9bd, #c3aab7, #a69cac);
+    font-family: Roboto;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.brewery-container{
+   /* background: white;*/
+    background-image: linear-gradient(to right bottom, #ffe1c6, #f3ccc1, #deb9bd, #c3aab7, #a69cac);
+    box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.1);
+    padding: 12px;
+    gap: 25px;
+    border-radius: 10px
+  }
+  .brewery-values {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom:0px;
+  }
+  .heading{
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+    min-width: 250px;
+ }
+input{
+   display: flex;
+   flex-direction:column;
+   margin-top: 16px;
+   margin-bottom:0px;
+   height: fit-content;
+   min-width: 250px;
+   max-width: 475px;
+   margin: auto;
+   width: 60%;
+   padding: 10px;
+   border-radius: 5px;
+
+ }
+ button{
+    max-width: 100px;
+    margin: auto;
+    margin-left: 810px;
+    width: 60%;
+    padding: 12px;
+    margin-bottom:12px;
+
+  }     
+  .brewery-list {
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+    margin-top: 15px;;
+    margin-bottom:0px;
+    height: fit-content;
+    min-width: 250px;
+    max-width: 500px;
+    margin: auto;
+    width: 60%;
+    padding: 10px; 
+  }
+  
+  
